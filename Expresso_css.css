@@ -1,0 +1,356 @@
+.navbar-brand{
+    font-size:40px;
+    font-family: 'Rancho',cursive;
+    color:black !important;
+    font-weight:700;
+}
+.Header_Image{
+    background-image:url('./Images/Coffee_background.jpg');
+    background-size: cover;
+    height:850px;
+    width:100%;
+
+}
+.form-control{
+    border-radius:24px;
+    background:transparent;
+    border-style: solid;
+    border-width:2px;
+    border-color:grey;
+}
+.navbar{
+    background-color:rgb(241, 221, 193) !important;
+}
+.Header_Content{
+    font-family:'Sacramento', cursive;
+    font-size:75px;
+    text-align:center;
+    padding-top:50px;
+    font-weight: 500;
+}
+.nav-link{
+    font-family: 'Aladin',cursive;
+    font-weight:600;
+    font-size:20px;
+}
+.btn{
+    font-family:'Aladin',cursive;
+}
+input[type=search]{
+    font-family:'Aladin',cursive;
+    font-size:20px;
+}
+.Quotes{
+    font-family:'Rancho',cursive;
+    text-align:center;
+    font-size:45px;
+}
+.btn_menu{
+    border-radius:30px;
+    background-color:transparent;
+    border-width:2px;
+    border-style:solid;
+    border-color:grey;
+    outline:none !important;
+    padding-bottom:10px !important;
+    padding-top:10px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    transition: transform 0.5s ease !important;
+    font-family:'Sacramento',cursive;
+    font-weight:600px;
+    font-size:25px;
+    cursor: pointer;
+}
+.btn_menu:hover{
+    background-color:black;
+    color:wheat;
+    border-style:none;
+    transform: scale(1.1);
+    
+}
+.Button_class{
+    text-align: center;
+    padding-top:400px;
+}
+.Coffee_section{
+    background-color:rgb(233, 202, 164);
+    height:1200px;
+    width:100%;
+}
+.coffee_header{
+    text-align: center;
+}
+.coffee_head{
+    font-family:'Sacramento',cursive;
+    font-size:60px;
+    padding-top:25px;
+}
+.coffee_head_2{
+    font-family:'Rancho',cursive;
+    font-size:60px;
+    padding-top:10px;
+}
+.Coffee_Section_menu{
+    height:800px;
+}
+.col{
+    text-align: center;
+    height:400px;
+}
+.card_box{
+    background-color:rgb(241, 221, 193);
+    height:360px;
+    border-radius:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition:transform 0.3s ease;
+}
+.card_box:hover{
+    transform:scale(1.03);
+}
+.btn_cart{
+    border-radius:30px;
+    background-color:transparent;
+    border-width:2px;
+    border-style:solid;
+    border-color:grey;
+    outline:none !important;
+    padding-bottom:8px !important;
+    padding-top:8px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    transition: transform 0.5s ease !important;
+    font-family:'Rancho',cursive;
+    font-weight:600px;
+    font-size:15px;
+    cursor: pointer;
+}
+.btn_cart:hover{
+    background-color:black;
+    color:wheat;
+    border-style:none;
+    transform: scale(1.1);
+    
+}
+.Snacks_section{
+    background-color:rgb(233, 202, 164);
+    height:900px;
+    width:100%;
+}
+.gallery_section{
+    background-color:rgb(233, 202, 164);
+    height:900px;
+    width:100%;
+}
+.gallery_card{
+    height:650px;
+    background-color:rgb(241, 221, 193);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bborder{
+    transition:transform 0.3s ease;
+}
+.bborder:hover{
+    transform:scale(1.05);
+}
+.gallery_section img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid azure;
+}
+.About_us{
+    background-color:rgb(233, 202, 164);
+    height:500px;
+    width:100%;
+}
+.About_text{
+    font-family:'Rancho',cursive;
+    text-align:center;
+    font-size:30px;
+}
+.line{
+    border-top:3px solid black;
+    width:40%;
+    margin-top:-10px;
+    
+}
+.contact{
+    height:350px;
+    background-color:rgb(66, 65, 65);
+}
+.wline{
+    border-top:3px solid azure;
+    width:50%;
+    margin-top:-10px;
+}
+.line_1{
+    font-size:20px;
+    font-family:'Lobster Two', cursive;
+    color:azure;
+    cursor: pointer;
+}
+.phone_number{
+    font-size:20px;
+    font-family:'Lobster Two', cursive;
+    color:azure;
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+.phone_number:hover{
+    color:rgb(233, 202, 164);
+}
+input[type=text]{
+    
+    padding:10px 10px 10px 5px;
+    font-family:'Lobster Two', cursive;
+    outline:none;
+    font-size:20px;
+
+}
+input[type=submit]{
+    padding:15px 20px 15px 20px;
+    background-color:rgb(233, 202, 164);
+    outline:none;
+    font-family:'Lobster Two', cursive;
+    transition:transform 0.3s ease;
+}
+input[type=submit]:hover{
+    color:white;
+    background-color:rgb(66, 65, 65);
+    font-family:'Lobster Two', cursive;
+    transform:scale(1.03);
+}
+.icon{
+    
+    margin-top:20px;
+
+}
+.fab{
+    color:azure;
+}
+.fab:hover{
+    color:rgb(233, 202, 164);
+}
+.footer{
+    height:50px;
+    text-align:center;
+    background-color: aliceblue;
+}
+.fas{
+    color:black;
+}
+.btn_menu a:hover,a:active{
+    color:rgb(233, 202, 164) !important;
+}
+@media screen and (min-width:1335px) {
+    .Button_class{
+        padding-top:500px;
+    }
+    .About_text{
+        font-size:40px;
+    }
+    .About_us{
+        height:700px;
+    }
+
+}
+@media screen and (max-width:592px) {
+    .Button_class{
+        padding-top:100px
+    }
+    .Header_Image{
+        height:650px;
+    }
+    .Coffee_section{
+        height:3800px !important;
+    }
+    .About_text{
+        font-size:25px;
+    }
+   
+} 
+@media screen and (max-width:334px){
+    .coffee_head_2{
+        padding-bottom:20px !important;
+    }
+    
+}
+@media screen and (max-width:448px) {
+    .col{
+        height:425px;
+    }
+    .card_box{
+        height:360px;
+    }
+    .About_us{
+        height:70px;
+    }
+    
+}
+@media screen and (max-width:990px) and (min-width:550px) {
+    .Coffee_section{
+        height:1850px;
+    }
+    .Snacks_section{
+        height:1800px;
+    }
+    .gallery_card{
+        height:1100px;
+    }
+    .gallery_section{
+        height:1200px;
+    }
+    .About_us{
+        height:700px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .Snacks_section{
+        height:3700px;
+    }
+    .gallery_card{
+        height:2000px;
+    }
+    .gallery_section{
+        height:2100px;
+    }
+    .About_us{
+        height:600px;
+    }
+    .line{
+        width:80%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1195px){
+    .gallery_card{
+        height:1100px;
+    }
+    .gallery_section{
+        height:1200px;
+    }
+}
+@media screen and (max-width:390px) {
+    .Button_class{
+        margin-top:-90px;
+    }
+    .About_us{
+        height:900px;
+    }
+
+}
+@media screen and (min-width:390px) and (max-width:480px){
+    .About_us{
+        height:800px;
+    }
+}
+@media screen and (max-width:770px) {
+    .contact{
+        height:950px;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:780px) {
+    input[type=submit]{
+        margin-top:20px;
+        padding:10px 80px 10px 95px;
+    }
+}
